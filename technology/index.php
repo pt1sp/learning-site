@@ -28,7 +28,6 @@ try {
     <a href="add.php">追加</a>
     <a href="edit.php">編集</a>
     <a href="../index.php">メインメニュー</a>
-
     <p id="learn_count"><?php echo $row_count; ?></p>
 </body>
 <link rel="stylesheet" href="../style/style.css">
