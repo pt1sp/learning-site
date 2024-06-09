@@ -11,7 +11,7 @@ try {
     $ID = $_POST['ID'];
 
     // 削除するレコードを SQL を使って削除
-    $sql = 'DELETE FROM technology WHERE ID=?';
+    $sql = 'DELETE FROM physics WHERE ID=?';
     $stmt = $dbh->prepare($sql);
     $stmt->execute([$ID]);
 

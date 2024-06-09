@@ -67,7 +67,7 @@
         $dsn = null;
 
         print '<table border="1">';
-        print '<tr><td>単語</td><td>説明</td><td>タグ</td></tr>';
+        print '<tr><td>題名</td><td>説明</td><td>タグ</td></tr>';
         while ($rec = $stmt->fetch(PDO::FETCH_ASSOC)) {
             print '<tr>';
             print '<td>' . $rec['word'] . '</td>';

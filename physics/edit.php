@@ -34,7 +34,7 @@ try {
     $dbh = new PDO($dsn, $user, $password);
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $sql = 'SELECT ID, word, content FROM technology';
+    $sql = 'SELECT ID, word, content FROM physics';
     $stmt = $dbh->prepare($sql);
     $stmt->execute();
 

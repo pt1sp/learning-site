@@ -11,7 +11,7 @@ try {
     $dbh = new PDO($dsn, $user, $password);
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $sql = 'UPDATE technology SET word=?, tag=?, content=? WHERE ID=?';
+    $sql = 'UPDATE physics SET word=?, tag=?, content=? WHERE ID=?';
     $stmt = $dbh->prepare($sql);
     $data = array($word, $tag, $content, $ID);
     $stmt->execute($data);

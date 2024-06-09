@@ -16,7 +16,7 @@
         $dbh = new PDO($dsn, $user, $password);
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $sql = 'SELECT word, content, tag FROM technology WHERE ID=?';
+        $sql = 'SELECT word, content, tag FROM physics WHERE ID=?';
         $stmt = $dbh->prepare($sql);
         $data[] = $ID;
         $stmt->execute($data);
