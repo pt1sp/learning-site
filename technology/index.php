@@ -1,3 +1,19 @@
+<?php
+try {
+    $dsn = 'mysql:dbname=learn;host=localhost;charset=utf8';
+    $user = 'root';
+    $password = '';
+    $pdo = new PDO($dsn, $user, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    // SQLクエリを実行してカウントを取得
+    $stmt = $pdo->query('SELECT COUNT(ID) FROM technology');
+    $row_count = $stmt->fetchColumn();
+
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
+}
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -11,6 +27,9 @@
     <a href="view.php">表示</a>
     <a href="add.php">追加</a>
     <a href="edit.php">編集</a>
-</body>
+    <a href="../index.php">メインメニュー</a>
 
+    <p id="learn_count"><?php echo $row_count; ?></p>
+</body>
+<link rel="stylesheet" href="../style/style.css">
 </html>

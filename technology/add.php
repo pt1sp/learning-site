@@ -12,7 +12,7 @@
     <p>単語追加</p>
     <form method="post" action="add_done.php" enctype="multipart/form-data">
         <p>単語</p>
-        <input type="text" name="word">
+        <input type="text" id="words" name="word">
         <p>タグ</p>
         <select id="tags" name="tag">
             <option value="hardware">ハードウェア</option>

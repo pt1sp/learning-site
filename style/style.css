@@ -1,4 +1,14 @@
 .large-textarea {
-    width: 300px;
-    height: 150px;
+  width: 300px;
+  height: 150px;
+}
+
+#learn_count {
+  font-size: 10vw; /* 画面幅の10%の大きさに設定 */
+  font-weight: bold;
+  text-align: center;
+}
+
+#words {
+  width: 300px;
 }
