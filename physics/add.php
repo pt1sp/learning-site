@@ -13,7 +13,9 @@
         <p>題名</p>
         <input type="text" id="words" name="word">
         <p>タグ</p>
-        
+        <select name="tag">
+            <option value="nothing">未定</option>
+        </select>
         <p>説明</p>
         <textarea class="large-textarea" name="content" placeholder="ここにテキストを入力"></textarea>
         <input type="button" onclick="location.href='index.php'" value="戻る">

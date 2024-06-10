@@ -44,29 +44,7 @@
             <?php
             // タグ名と日本語名の対応関係を持つ連想配列
             $tag_names = array(
-                "hardware" => "ハードウェア",
-                "software" => "ソフトウェア",
-                "network" => "ネットワーク",
-                "security" => "セキュリティ",
-                "basic" => "基礎理論",
-                "algorithm" => "アルゴリズム",
-                "computer_component" => "コンピュータ構成要素",
-                "system_component" => "システム構成要素",
-                "user_interface" => "ユーザーインターフェース",
-                "information_media" => "情報メディア",
-                "database" => "データベース",
-                "system_developed_technology" => "システム開発技術",
-                "software_development_management_technology" => "ソフトウェア開発管理技術",
-                "project_management" => "プロジェクトマネジメント",
-                "service_management" => "サービスマネジメント",
-                "system_audit" => "システム監査",
-                "system_strategy" => "システム戦略",
-                "system_plan" => "システム企画",
-                "management_strategy" => "経営戦略マネジメント",
-                "technology_strategy_management" => "技術戦略マネジメント",
-                "business_industry" => "ビジネスインダストリ",
-                "corporate_activities" => "企業活動",
-                "legal" => "法務"
+                "nothing" => "未定",
             );
 
             foreach ($tag_names as $tag_value => $tag_name) {

@@ -7,10 +7,10 @@
 </head>
 <body>
     <a href="technology/index.php">情報</a>
-    <a href="">物理学</a>
+    <a href="physics/index.php">物理学</a>
     <a href="">数学</a>
     <a href="">雑学</a>
     <a href="">心理学</a>
-    <a href="diary/add.php">日記</a>
+    <a href="diary/confirm.html">日記</a>
 </body>
 </html>
