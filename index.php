@@ -13,4 +13,5 @@
     <a href="">心理学</a>
     <a href="diary/confirm.html">日記</a>
 </body>
+<link rel="stylesheet" href="style/style.css">
 </html>
