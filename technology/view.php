@@ -25,6 +25,7 @@
         print '<form method="get" action="">
         <select name="tag">
             <option value="">全てのタグ</option>
+            <option value="programming">プログラミング</option>
             <option value="hardware">ハードウェア</option>
             <option value="software">ソフトウェア</option>
             <option value="network">ネットワーク</option>

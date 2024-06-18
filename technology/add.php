@@ -14,6 +14,7 @@
         <input type="text" id="words" name="word">
         <p>タグ</p>
         <select id="tags" name="tag">
+            <option value="programming">プログラミング</option>
             <option value="hardware">ハードウェア</option>
             <option value="software">ソフトウェア</option>
             <option value="network">ネットワーク</option>

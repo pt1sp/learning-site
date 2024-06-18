@@ -44,6 +44,7 @@
             <?php
             // タグ名と日本語名の対応関係を持つ連想配列
             $tag_names = array(
+                "programming" => "プログラミング",
                 "hardware" => "ハードウェア",
                 "software" => "ソフトウェア",
                 "network" => "ネットワーク",
